@@ -7,6 +7,8 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('listamsg');
+  this.route('perfil');
 });
 
 export default Router;
